@@ -1,7 +1,7 @@
 import 'dart:io';
 
 main() {
-  var nome = [];
+  /*var nome = [];
 
   bool condicao = true;
 
@@ -17,5 +17,15 @@ main() {
 
     print(nome);
     print("\n");
-  }
+  } */
+
+  List<String> nomes = ["leandro", "Santos"];
+  nomes.add("costa");
+
+  print(nomes.length);
+  print(nomes[0]);
+
+  nomes.removeAt(2);
+  nomes.remove("Santos");
+  print(nomes);
 }
